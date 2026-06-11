@@ -14,7 +14,14 @@ public class TrueNorthClient {
     @SubscribeEvent
     public static void clientInit(FMLClientSetupEvent event) {
         event.enqueueWork(() -> {
-            ItemProperties.register(RegisterItem.MAGNETICCOMPASS.get(), ResourceLocation.fromNamespaceAndPath(TrueNorth.MODID, "angle"), (stack, world, player, seed) -> MagneticCompass.GetYRot(player));
+            ItemProperties.register(RegisterItem.MAGNETICCOMPASS.get(), ResourceLocation.fromNamespaceAndPath(TrueNorth.MODID, "angle"), (stack, world, player, seed) -> {
+                if (player != null) {
+                    return MagneticCompass.GetYRot(player);
+                }
+                else {
+                    return 0f;
+                }
+            });
         });
     }
 }
