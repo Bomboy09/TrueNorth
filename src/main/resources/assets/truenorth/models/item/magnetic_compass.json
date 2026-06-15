@@ -1,0 +1,41 @@
+{
+  "parent" : "minecraft:item/generated",
+  "textures" : {
+    "layer0": "truenorth:item/compass_16"
+  },
+  "overrides": [
+    { "predicate": { "truenorth:angle": 0.000000 }, "model": "truenorth:item/compass_16" },
+    { "predicate": { "truenorth:angle": 0.015625 }, "model": "truenorth:item/compass_15" },
+    { "predicate": { "truenorth:angle": 0.046875 }, "model": "truenorth:item/compass_14" },
+    { "predicate": { "truenorth:angle": 0.078125 }, "model": "truenorth:item/compass_13" },
+    { "predicate": { "truenorth:angle": 0.109375 }, "model": "truenorth:item/compass_12" },
+    { "predicate": { "truenorth:angle": 0.140625 }, "model": "truenorth:item/compass_11" },
+    { "predicate": { "truenorth:angle": 0.171875 }, "model": "truenorth:item/compass_10" },
+    { "predicate": { "truenorth:angle": 0.203125 }, "model": "truenorth:item/compass_09" },
+    { "predicate": { "truenorth:angle": 0.234375 }, "model": "truenorth:item/compass_08" },
+    { "predicate": { "truenorth:angle": 0.265625 }, "model": "truenorth:item/compass_07" },
+    { "predicate": { "truenorth:angle": 0.296875 }, "model": "truenorth:item/compass_06" },
+    { "predicate": { "truenorth:angle": 0.328125 }, "model": "truenorth:item/compass_05" },
+    { "predicate": { "truenorth:angle": 0.359375 }, "model": "truenorth:item/compass_04" },
+    { "predicate": { "truenorth:angle": 0.390625 }, "model": "truenorth:item/compass_03" },
+    { "predicate": { "truenorth:angle": 0.421875 }, "model": "truenorth:item/compass_02" },
+    { "predicate": { "truenorth:angle": 0.453125 }, "model": "truenorth:item/compass_01" },
+    { "predicate": { "truenorth:angle": 0.484375 }, "model": "truenorth:item/compass_00" },
+    { "predicate": { "truenorth:angle": 0.515625 }, "model": "truenorth:item/compass_31" },
+    { "predicate": { "truenorth:angle": 0.546875 }, "model": "truenorth:item/compass_30" },
+    { "predicate": { "truenorth:angle": 0.578125 }, "model": "truenorth:item/compass_29" },
+    { "predicate": { "truenorth:angle": 0.609375 }, "model": "truenorth:item/compass_28" },
+    { "predicate": { "truenorth:angle": 0.640625 }, "model": "truenorth:item/compass_27" },
+    { "predicate": { "truenorth:angle": 0.671875 }, "model": "truenorth:item/compass_26" },
+    { "predicate": { "truenorth:angle": 0.703125 }, "model": "truenorth:item/compass_25" },
+    { "predicate": { "truenorth:angle": 0.734375 }, "model": "truenorth:item/compass_24" },
+    { "predicate": { "truenorth:angle": 0.765625 }, "model": "truenorth:item/compass_23" },
+    { "predicate": { "truenorth:angle": 0.796875 }, "model": "truenorth:item/compass_22" },
+    { "predicate": { "truenorth:angle": 0.828125 }, "model": "truenorth:item/compass_21" },
+    { "predicate": { "truenorth:angle": 0.859375 }, "model": "truenorth:item/compass_20" },
+    { "predicate": { "truenorth:angle": 0.890625 }, "model": "truenorth:item/compass_19" },
+    { "predicate": { "truenorth:angle": 0.921875 }, "model": "truenorth:item/compass_18" },
+    { "predicate": { "truenorth:angle": 0.953125 }, "model": "truenorth:item/compass_17" },
+    { "predicate": { "truenorth:angle": 0.984375 }, "model": "truenorth:item/compass_16" }
+  ]
+}
