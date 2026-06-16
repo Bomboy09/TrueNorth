@@ -9,7 +9,7 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 public class RegisterItem {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(TrueNorth.MODID);
 
-    public static final DeferredItem<Item> MAGNETICCOMPASS = ITEMS.register("magnetic_compass", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> MAGNETIC_COMPASS = ITEMS.register("magnetic_compass", () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

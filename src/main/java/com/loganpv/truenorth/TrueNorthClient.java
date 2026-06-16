@@ -14,7 +14,7 @@ public class TrueNorthClient {
     @SubscribeEvent
     public static void clientInit(FMLClientSetupEvent event) {
         event.enqueueWork(() -> {
-            ItemProperties.register(RegisterItem.MAGNETICCOMPASS.get(), ResourceLocation.fromNamespaceAndPath(TrueNorth.MODID, "angle"), (stack, world, player, seed) -> {
+            ItemProperties.register(RegisterItem.MAGNETIC_COMPASS.get(), ResourceLocation.fromNamespaceAndPath(TrueNorth.MODID, "angle"), (stack, world, player, seed) -> {
                 if (player != null) {
                     return MagneticCompass.GetYRot(player);
                 }
