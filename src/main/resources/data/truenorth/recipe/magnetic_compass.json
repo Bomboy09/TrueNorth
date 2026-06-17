@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": "minecraft:iron_ingot",
+    "O": "minecraft:copper_ingot",
+    "X": "minecraft:redstone"
+  },
+  "pattern": [
+    " O ",
+    "#X#",
+    " O "
+  ],
+  "result": {
+    "count": 1,
+    "id": "truenorth:magnetic_compass"
+  }
+}

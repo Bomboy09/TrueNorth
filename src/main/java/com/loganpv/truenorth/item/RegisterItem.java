@@ -1,0 +1,17 @@
+package com.loganpv.truenorth.item;
+
+import com.loganpv.truenorth.TrueNorth;
+import net.minecraft.world.item.Item;
+import net.neoforged.bus.api.IEventBus;
+import net.neoforged.neoforge.registries.DeferredItem;
+import net.neoforged.neoforge.registries.DeferredRegister;
+
+public class RegisterItem {
+    public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(TrueNorth.MODID);
+
+    public static final DeferredItem<Item> MAGNETIC_COMPASS = ITEMS.registerItem("magnetic_compass", Item::new, props -> props);
+
+    public static void register(IEventBus eventBus) {
+        ITEMS.register(eventBus);
+    }
+}
