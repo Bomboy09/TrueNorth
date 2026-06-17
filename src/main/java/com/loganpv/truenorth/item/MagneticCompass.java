@@ -28,7 +28,7 @@ public class MagneticCompass {
         @Override
         public float get(ItemStack stack, @Nullable ClientLevel level, @Nullable ItemOwner owner, int seed) {
             if (owner.asLivingEntity() != null) {
-                current = Mth.positiveModulo(Mth.rotLerp(0.01f, owner.asLivingEntity().getVisualRotationYInDegrees() + 180, current), 360);
+                current = Mth.positiveModulo(Mth.rotLerp(0.05f, current, owner.asLivingEntity().getVisualRotationYInDegrees() + 180), 360);
                 return current / 360;
             }
             else {
